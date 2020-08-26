@@ -61,8 +61,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# sharelib" 
 
-## Para clonar
+### Para clonar
 $ git clone https://github.com/CANOMICHEL/sharelib.git
-Para iniciar el servidor
+### Para iniciar el servidor
 $ php artisan serve
 
