@@ -62,7 +62,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 "# sharelib" 
 
 ### Para clonar
-<input value="$ git clone https://github.com/CANOMICHEL/sharelib.git">
+$ git clone https://github.com/CANOMICHEL/sharelib.git
 ### Para iniciar el servidor
 $ php artisan serve
 
