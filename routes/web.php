@@ -12,11 +12,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//rutas para book
+Route::resource('books','BookController');
+Route::resource('authors','AuthorController');
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('base');
 });
 
-Auth::routes();
+Route::get('home', function () {
+    return view('book.userbook');
+})->name('home')->middleware('auth');
 
-Route::get('/home', 'HomeController@index')->name('home');
+Auth::routes();
