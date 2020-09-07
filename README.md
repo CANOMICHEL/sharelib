@@ -68,3 +68,4 @@ $ composer install
 ### Para iniciar el servidor
 $ php artisan serve
 
+"# sharelib" 
