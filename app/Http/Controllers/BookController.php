@@ -3,10 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Book;
-<<<<<<< HEAD
 use App\Author;
-=======
->>>>>>> c79d930bd594d069990a8b3095a645c66426c112
 use Illuminate\Http\Request;
 
 class BookController extends Controller
@@ -18,13 +15,9 @@ class BookController extends Controller
      */
     public function index()
     {
-<<<<<<< HEAD
         $books = Book::paginate(8);
         $authors = Author::all();
         return view('book.index', compact('books','authors'));
-=======
-        //
->>>>>>> c79d930bd594d069990a8b3095a645c66426c112
     }
 
     /**
