@@ -9,6 +9,10 @@ Route::get('/', function () {
     return view('base');
 });
 
+Route::get('/we', function () {
+    return view('information.we');
+});
+
 Route::get('home', function () {
     return view('book.userbook');
 })->name('home')->middleware('auth');
