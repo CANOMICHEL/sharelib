@@ -13,7 +13,7 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/books">Home</a></li>
-        <li><a href="#">Nosotros</a></li>
+        <li><a href="/we">Nosotros</a></li>
         <li><a href="#">Contactos</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
